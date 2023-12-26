@@ -1,0 +1,1049 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  /* width: 1600px; */
+  margin: auto;
+  height: 98px;
+  /* background-color: yellow; */
+}
+
+.navLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 50px;
+  background: #0c3a72;
+  cursor: pointer;
+}
+.navLogo p {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.subMenu ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  cursor: pointer;
+
+  color: #4d5164;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.nabBtn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 172px;
+  height: 58px;
+  flex-shrink: 0;
+
+  border-radius: 0px 20px;
+  border: 1px solid #2b9cd9;
+}
+.nabBtn1 button {
+  border: none;
+  background-color: transparent;
+
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+.nabBtn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 172px;
+  height: 58px;
+  flex-shrink: 0;
+
+  border-radius: 0px 20px;
+  background: #2b9cd9;
+}
+.nabBtn2 button {
+  border: none;
+  background-color: transparent;
+
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+  text-transform: capitalize;
+}
+
+/* sections*/
+
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  /* margin: ; */
+}
+
+.sec1 img {
+  width: 718.269px;
+  height: 447.884px;
+  flex-shrink: 0;
+  transform: scaleX(-1);
+}
+
+.sec1Texts {
+  width: 555px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.sec1Texts p {
+  color: #606578;
+
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.sec1Texts h3 {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sec1Texts span {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sec1Texts button {
+  width: 148px;
+  height: 58px;
+  border-radius: 0px 20px;
+  background: #00489a;
+
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.sec2 h3 {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.sec2 span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.boxs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  /* background-color: yellow; */
+  width: 80vw;
+}
+.box1 {
+  width: 360px;
+  height: 289px;
+  /* background-color: lightcoral; */
+  padding: 10px;
+}
+
+.box1_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(248, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_sec p {
+  color: #606578;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.first_sec {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+
+  padding-bottom: 29px;
+}
+
+.box1 span {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 83.333% */
+  text-transform: capitalize;
+}
+
+.box1 p {
+  color: #4d5164;
+
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.first_sec {
+  margin-top: 29px;
+}
+
+/* section 3 */
+
+.sec3 {
+  width: 1600px;
+  height: 898px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left h3 {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.left span {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.left p {
+  width: 528px;
+
+  color: #606578;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.btnsBox button {
+  /* display: flex; */
+  width: 263px;
+  height: 58px;
+
+  color: #10407c;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.right img {
+  width: 852px;
+  height: 569px;
+}
+
+.btnsBox {
+  display: flex;
+  gap: 30px;
+}
+.leftBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.RightBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* section 4 */
+
+.sec4 {
+  width: 1600px;
+  height: 898px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.sec4 h3 {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 83.333% */
+  text-transform: capitalize;
+}
+.sec4 span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.sec4Box {
+  display: flex;
+  gap: 20px;
+}
+.sec4Box h5 {
+  width: 206px;
+  height: 24px;
+
+  color: #0a1648;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  text-transform: capitalize;
+}
+
+.sec4Box p {
+  color: #606578;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.sec4Box span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sec4Box h5 {
+  width: 281px;
+  height: 24px;
+  color: #0a1648;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+.sec4Box img {
+  width: 403px;
+  height: 371px;
+}
+
+/* section 5 */
+
+.sec5 {
+  width: 1600px;
+  height: 898px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.sec5 h3 {
+  color: #00489a;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 83.333% */
+  text-transform: uppercase;
+}
+
+.sec5Boxs {
+  display: flex;
+}
+.sec5Box {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  width: 263px;
+  height: 349px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(248, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec5Box span {
+  width: 130px;
+  height: 38px;
+
+  color: #00489a;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+  text-transform: capitalize;
+}
+
+.sec5Box p {
+  width: 242px;
+  color: #606578;
+  text-align: center;
+
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+/* section6 */
+
+.sec6 {
+  width: 929px;
+  height: 434px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.sec6 h3 {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 83.333% */
+  text-transform: capitalize;
+}
+
+.sec6 span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.star {
+  width: 945px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.star p {
+  color: #606578;
+  text-align: center;
+
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+}
+.star h5 {
+  color: #00489a;
+  text-align: center;
+
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+}
+
+/* sec7 */
+
+.sec7 {
+  width: 1600px;
+  height: 898px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.sec7 h3 {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 83.333% */
+  text-transform: capitalize;
+}
+.sec7 span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.sec7_left {
+  width: 555px;
+  height: 845px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sec7_right {
+  width: 555px;
+  height: 845px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sec7 img {
+  width: 555px;
+  height: 360px;
+}
+
+.sec7_Box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.sec7_Box span {
+  color: #00489a;
+
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sec7_Box p {
+  color: #606578;
+
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+/* section 8 */
+
+.sec8 {
+  width: 1600px;
+  height: 898px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.sec8 h3 {
+  color: #00489a;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 83.333% */
+  text-transform: uppercase;
+}
+
+.sec8_Box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 555px;
+  height: 56px;
+  background-color: white;
+
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  box-shadow: 0px 0px 20px 0px rgba(0, 72, 154, 0.07);
+}
+.sec8_Box p {
+  color: #000;
+
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.sec8_Box svg {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #2b9cd9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec8_Box_open {
+  gap: 20px;
+  width: 555px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 72, 154, 0.07);
+}
+.sec8_Box_opens {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 555px;
+  /* height: 56px; */
+}
+.sec8_Box_open_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  width: 463.433px;
+  /* height: 66.72px; */
+  transform: rotate(-0.233deg);
+
+  color: #606578;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.sec8_left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sec8_right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sec8_area {
+  display: flex;
+}
+
+.sec8_btn {
+  width: 172px;
+  height: 58px;
+
+  border-radius: 0px 20px;
+  background: #00489a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec8_btn p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+  text-transform: capitalize;
+}
+
+/* section 9 */
+
+.sec9 {
+  display: flex;
+  position: relative;
+  top: 0px;
+  height: 550px;
+}
+/* .sec9 img {
+  transform: scaleX(-1);
+} */
+
+.gray-bg {
+  width: 75vw;
+  height: 550px;
+  background: linear-gradient(
+    90deg,
+    #e7ecf7 0.18%,
+    #e7ecf7 59.61%,
+    rgba(231, 236, 247, 0.91) 79.22%,
+    rgba(231, 236, 247, 0) 95.03%
+  );
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 230px;
+  /* background-color: yellow; */
+}
+.sec9_img {
+  z-index: 5;
+  width: 980px;
+  height: 550px;
+  position: absolute;
+  transform: scaleX(-1);
+
+  right: 10px;
+}
+
+.gray-bg h3 {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.gray-bg span {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.gray-bg p {
+  color: #606578;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sec9_Btns {
+  display: flex;
+  /* background-color: yellow; */
+  z-index: 99;
+  width: auto;
+  height: 58px;
+  flex-shrink: 0;
+  gap: 20px;
+}
+
+.sec9_Btn1 {
+  width: 184px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 0px 20px;
+  background: #00489a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec9_Btn1 p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+}
+.sec9_Btn2 {
+  width: 315px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 0px 20px;
+  border: 1px solid #00489a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec9_Btn2 p {
+  color: #00489a;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 88.889% */
+  text-transform: capitalize;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #0a1648;
+  width: 99vw;
+  /* height: 439px; */
+  flex-shrink: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 70vw;
+  margin: auto;
+  height: 439px;
+  align-items: start;
+  padding-top: 80px;
+  /* background-color: yellow; */
+  gap: 100px;
+}
+
+.col_1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+.col_1_btn {
+  width: 310px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col_1_btn p {
+  color: #00489a;
+  font-family: Playfair Display;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.col_1 > p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_circles {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.col_2 span {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.col_2 p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.col_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.col_3 span {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.col_3 h5 {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+.col_3 > p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+}
+
+.contact_icon {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.contact_icon > p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer_line {
+  width: 1140px;
+  height: 1px;
+  opacity: 0.3;
+  background: #fff;
+  margin: auto;
+}
+
+.footer_text {
+  width: 1140px;
+  /* background-color: yellow; */
+  margin: auto;
+}
+.footer_text p {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
